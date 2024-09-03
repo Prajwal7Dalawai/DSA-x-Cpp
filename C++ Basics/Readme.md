@@ -3,7 +3,6 @@
 <ul>
 <li>For printing use `cout`</li>
 <li>For taking input use `cin`</li></ul>
-<br><br>
 
 <h3>Data Types in C++</h3>
 <h4>1. Primitive Data types</h4>
