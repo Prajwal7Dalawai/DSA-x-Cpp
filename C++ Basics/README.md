@@ -22,8 +22,9 @@
 <li>Arithmatic Operators: +, - , *, /</li>
 <li>Relational Operatores: <, >, ==, <=, >=, !=  always return true or false</li>
 <li>Logical operators: ||(OR), &&(AND), !(NOT) </li>
-<li><ul>Unary Operator
-<li>Increament: There are two types:<ul><li>1. Post Increament(a++): Invreament after using the value</li><li>Pre Increament(++a): Increament before using the value</li></li>
-<li>Decreament: There are two types:<ul><li>1. Post decreament(a--): Invreament after using the value</li><li>Pre decreament(--a): Increament before using the value</li></li>
+<li>Unary Operator
+<ul>
+<li>Increament: There are two types:<ul><li>1. Post Increament(a++): Invreament after using the value</li><li>Pre Increament(++a): Increament before using the value</li></ul></li>
+<li>Decreament: There are two types:<ul><li>1. Post decreament(a--): Invreament after using the value</li><li>Pre decreament(--a): Increament before using the value</li></ul></li>
 </ul></li>
 </ol>
