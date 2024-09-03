@@ -16,3 +16,14 @@
 
 <h3>Type Conversion and Type Casting</h3>
 <p>Refer the file named [type_conversion&casting.cpp](https://github.com/Prajwal7Dalawai/DSA-x-Cpp/blob/main/C%2B%2B%20Basics/type_conversion%26casting.cpp) to know about this</p>
+
+<h3>Operators in C++</h3>
+<ol>
+<li>Arithmatic Operators: +, - , *, /</li>
+<li>Relational Operatores: <, >, ==, <=, >=, !=  always return true or false</li>
+<li>Logical operators: ||(OR), &&(AND), !(NOT) </li>
+<li><ul>Unary Operator
+<li>Increament: There are two types:<ul><li>1. Post Increament(a++): Invreament after using the value</li><li>Pre Increament(++a): Increament before using the value</li></li>
+<li>Decreament: There are two types:<ul><li>1. Post decreament(a--): Invreament after using the value</li><li>Pre decreament(--a): Increament before using the value</li></li>
+</ul></li>
+</ol>
