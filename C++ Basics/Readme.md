@@ -15,4 +15,4 @@
 </ul>
 
 <h3>Type Conversion and Type Casting</h3>
-<p>Refer the file named <a src="https://github.com/Prajwal7Dalawai/DSA-x-Cpp/blob/main/C%2B%2B%20Basics/type_conversion%26casting.cpp">'type_conversion&casting.cpp'</a> to know about this</p>
+<p>Refer the file named ['type_conversion&casting.cpp'](https://github.com/Prajwal7Dalawai/DSA-x-Cpp/blob/main/C%2B%2B%20Basics/type_conversion%26casting.cpp) to know about this</p>
