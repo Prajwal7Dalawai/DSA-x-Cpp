@@ -7,5 +7,6 @@ main(){
 
     double price = 100.49;
     int newPrice = (int)price;  //This is called explicit Conversion or Type Casting
+    cout<<(5/(double)2);
     cout<<newPrice;
 }
