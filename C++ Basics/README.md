@@ -28,3 +28,11 @@
 <li>Decreament: There are two types:<ul><li>1. Post decreament(a--): Invreament after using the value</li><li>Pre decreament(--a): Increament before using the value</li></ul></li>
 </ul></li>
 </ol>
+
+<h3>Conditional Statements</h3>
+<ol>
+<li>if - Condition: </li>
+<li>if-else - Condition </li>
+<li>if-else-if ladder </li>
+<li>Nested if Condition </li>
+</ol>
