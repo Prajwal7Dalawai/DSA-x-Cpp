@@ -30,6 +30,7 @@
 </ol>
 
 <h3>Conditional Statements</h3>
+Conditional Statements in C++ are used to check if certain condition is true or not.
 <ol>
 <li>if - Condition: </li>
 <li>if-else - Condition </li>
@@ -40,3 +41,27 @@
 <h3>Ternary Operator</h3>
 condition ? stmt1 : stmt2;<br>
 <p>Ternary Operator can work on Three operands. It can also used in condition checking. Nested if-else can be efficiently handled using ternary operator with fewer lines of code</p>
+
+<h3>Loops in C++</h3>
+Refer file named `loops_in_c++.cpp`.<br>
+Loops are used to perform one or set of actions repeatitively until some condition is satisfied. There are mainly 3 types of loops:
+<ol>
+<li>while-loop:<br>
+Syntax: <br>
+while(condition){<br>
+statements...;<br>
+}</li>
+<li>Do-while loop:<br>
+Syntax:<br>
+do{<br>
+statements;<br>
+}while(condition)
+</li>
+<li>for-loop:
+syntax:<br>
+for(initialisation;condition;increament/decreament){<br>
+statements;<br>
+}</li>
+<li>Nested Loops: nested loops are the one which contains loops inside a loop. Either it may be a while loop or for loop.</li>
+</ol>
+<p>Note: the first two types of loops are called uncontrolled loops because we won't be knowing where and when the loop ends. For loop is called as controlled loop because we already know starting and end point of the loop in prior.</p>
