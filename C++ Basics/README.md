@@ -36,3 +36,7 @@
 <li>if-else-if ladder </li>
 <li>Nested if Condition </li>
 </ol>
+
+<h3>Ternary Operator</h3>
+condition ? stmt1 : stmt2;<br>
+<p>Ternary Operator can work on Three operands. It can also used in condition checking. Nested if-else can be efficiently handled using ternary operator with fewer lines of code</p>
