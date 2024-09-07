@@ -65,3 +65,20 @@ statements;<br>
 <li>Nested Loops: nested loops are the one which contains loops inside a loop. Either it may be a while loop or for loop.</li>
 </ol>
 <p>Note: the first two types of loops are called uncontrolled loops because we won't be knowing where and when the loop ends. For loop is called as controlled loop because we already know starting and end point of the loop in prior.</p>
+
+<h3>Functions</h3>
+(<i>Refer file named functions.cpp</i>)<br>
+Functions are set of instructions which have to be executed more than one times. hence, collection of set of instructions under some particular name are called functions. Functions increases redundancy, readability and  modularity of the code. Functions may or may not take inputs as parameters/arguments for performing operations. Based on this we have divided functions into 5 categories, they are listed below.
+<ol>
+<li>Functions with no return type and no arguments</li>
+<li>Functions with no return type and with arguments</li>
+<li>Functions with with return type and no arguments</li>
+<li>Functions with with return type and with arguments</li>
+<li>Recursive Functions</li>
+</ol>
+
+We have talked about return types and parameters above. Let us understand what are those.
+<ol>
+<li>Return Types: Some of the functions usually return some value/values after performing the operations defined in that. It is like performing the calculations/operations and giving back the computed result for further usage. The values be of any kind of type(<i>int,bool,string,char,float,double,long,void...</i>). There is no need for the function to have any return types compulsarily. It depends based on the situations. When there is no return type of the function we use <i>void</i> as a return type in most of the cases.</li>
+<li>Parameters: Parameters are the input given to the function based on which it performs it operations. value of the parameters may or may not get changed during the function execution. We can provide any numbers of parameters to the function. There is no need for the function to have parameters compulsarily</li>
+</ol>
