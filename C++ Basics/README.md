@@ -82,3 +82,8 @@ We have talked about return types and parameters above. Let us understand what a
 <li>Return Types: Some of the functions usually return some value/values after performing the operations defined in that. It is like performing the calculations/operations and giving back the computed result for further usage. The values be of any kind of type(<i>int,bool,string,char,float,double,long,void...</i>). There is no need for the function to have any return types compulsarily. It depends based on the situations. When there is no return type of the function we use <i>void</i> as a return type in most of the cases.</li>
 <li>Parameters: Parameters are the input given to the function based on which it performs it operations. value of the parameters may or may not get changed during the function execution. We can provide any numbers of parameters to the function. There is no need for the function to have parameters compulsarily</li>
 </ol>
+<h4> There are 2 types of calling a function</h4>
+<ol>
+<li>Call By value: Copy of arguement is passed to the function. Here we are giving the copy of the arguement as a parameter to the function, which means the same type of the value which is given as an arguments, acquires the different memory location as compared to arguement. That means seperate memory is allocated for the values passed as parameters.</li>
+<li>Call By reference: Here we directly pass the address of the arguements as a parameter to the function, so that both paramaters and arguements share the same memory location in the system.</li>
+</ol>
