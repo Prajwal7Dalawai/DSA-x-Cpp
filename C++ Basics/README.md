@@ -87,3 +87,62 @@ We have talked about return types and parameters above. Let us understand what a
 <li>Call By value: Copy of arguement is passed to the function. Here we are giving the copy of the arguement as a parameter to the function, which means the same type of the value which is given as an arguments, acquires the different memory location as compared to arguement. That means seperate memory is allocated for the values passed as parameters.</li>
 <li>Call By reference: Here we directly pass the address of the arguements as a parameter to the function, so that both paramaters and arguements share the same memory location in the system.</li>
 </ol>
+
+<h3>Bitwise operators</h3>
+There are mainly 5 types of bitwose operators:
+<ol>
+<li><b>Bitwise AND(&)</b>: Returns True if all the conditions are true. Else returns false</li>
+<li><b>Bitwise OR(|)</b>: Returns true if any one of all the conditions are true. Else returns false.</li>
+<li><b>Bitwise XOR(^)</b>: If all conditions are Either true(Tautology) or false(fallacy), then it returns false. Else it return true.</li>
+<li><b>Left Shift Operator(<<)</b>: Shifts the digit to one bit by Left. Hence, it multiplies the digit by 2 for every shift.</li>
+<li><b>Right Shift Operator(>>): </b>: Shifts the digit to one bit by Right. Hence, it divides the digit by 2 for every shift.</li>
+</ol>
+
+<h3>Operator Precedence</h3>
+<table>
+<th>Operators</th>
+<th>Precedence</th>
+<tr>
+<td>!, +, -(unary operators)</td>
+<td>First (Right to Left)</td>
+</tr>
+<td>*, /, %*</td>
+<td>Second (Left to Right)</td>
+</tr>
+<td>+, -</td>
+<td>Third (Left to Right)</td>
+</tr>
+<td><, <=, >=, ></td>
+<td>Fourth (Left to Right)</td>
+</tr>
+<td>==, !=</td>
+<td>Fifth (Left to Right)</td>
+</tr>
+<td>&&</td>
+<td>Sixth (Left to Right)</td>
+</tr>
+<td>||</td>
+<td>Seventh (Left to Right)</td>
+</tr>
+<td>=(assignment operator)</td>
+<td>last (Right to Left)</td>
+</tr>
+</table>
+
+<h3>Scope</h3>
+Scope is defined as accessability of a variable within the program. <br>
+There are two scope for variable:
+<ol>
+<li>Local Scope: Variables which come under the functions scope, or lies within if else condition, or lies within block of code, comes under local scope. </li>
+<li>Global Scope: Variables which can be accessed throughout the program is known to be have global scope. they are usually defined at the begginning of the program(after include statements)</li>
+</ol>
+
+<h3> Data type Modifiers </h3>
+(changing meaning of data types)<br>
+Integers have the specefic range for storing numbers. they can only store the numbers which falls under the range of (-2<sup>31</sup>, 2<sup>31</sup>+1).
+<ul>
+<li><b>long:</b>: Gives extra 4 byte to the orginal data type. For example, if we write <i>long int x</i>, 'x' already has 4 bytes associated with it as it is a type of integer. But if we write <i>long</i> in front of it, we will have extra 4 bytes of space associated to 'x'.</li>
+<li><b>short</b>: It decreases  bytes of original data type. For example, if we want to store age of a person, we hardly require 3 digits. As 4 bytes of memory will be allocated to the variable in prior, most of the bytes get wasted as that variable doesn't hold much space. Hence we use <i>short</i> to decrease the number of bytes of original variable.</li>
+<li><b>long long</b>: Does same as <i>long</i>, it increases capacity of the original data type. It has 8 bytes of memory which we can occupy.</li>
+<li><b>signed</b>: generally data types such as <i>int, float, double</i> are signed by default. It can store both positive and negative numbers.</li>
+<li><b>unsigned:</b>: Used when the variable will ever not be negative and always stays positive.</li>
