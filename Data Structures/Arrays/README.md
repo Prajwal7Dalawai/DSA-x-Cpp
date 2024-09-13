@@ -29,6 +29,7 @@ data_type array_name[size];
 <p>We can pass array as a parameter by two methods:</p>
 <ol>
 <li><b>Pass by value:</b> We can provide array as a parameter to the function by making a copy of it.<br>For ex: int <i>smallest(int arr[],int size)</i><br>Here, int arr[] is the copy of the original array which is declared in the main function or wherever the function needs to be used.</li>
-<li><b>Pass by reference:</b> Here we pass the reference/address of the array straight away as a parameter. So that any changes that function wants to do to the array, it can straightaway do the changes to original array by accessing its address.</li>
+<li><b>Pass by reference:</b> Here we pass the reference/address of the array straight away as a parameter. So that any changes that function wants to do to the array, it can straightaway do the changes to original array by accessing its address.<br>
+For example: <i>int smallest(int *arr, int size)</i>, by this we can say that Array itself is a pointer as it denotes the address of first element it holds. </li>
 </ol>
 <p><b>Note:</b> In C++ a reference is an alternative name for an object or function it refers to. For sake of understanding, we are calling it out reference here.
