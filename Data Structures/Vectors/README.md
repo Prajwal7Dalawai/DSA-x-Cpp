@@ -23,9 +23,11 @@ for(data_type value : vector_name){ <br>
 <h2>Vector Functions</h2>
 <ol>
 <li><i><b>size: </b></i> Returns the size of the vector.</li>
+<li><i><b>capacity: </b></i>Returns the total capacity/size that can be accomodated by values/ maximum places where element in a data structure can accomodate..</li>
 <li><i><b>push_back: </b></i>Inserts the element at the back of the vector and increament the size of the vector.</li>
 <li><i><b>pop_back: </b></i>Deletes the last element of the vector(doesn't return) and decreases the size of the count.</li>
 <li><i><b>front: </b></i>Returns the first element of the vector.</li>
 <li><i><b>back: </b></i>Returns the last element of the vector</li>
 <li><i><b>at: </b></i>Accessing particular value at particular index.</li>
 </ol>
+<i><b>Note: </b> size property returns the size of the vector. It returns number of places actually occupied by value in vector, whereas, capacity property returns the total capacity/size that can be accomodated by values/ maximum places where element in a data structure can accomodate.
