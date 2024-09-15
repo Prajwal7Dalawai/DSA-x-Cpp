@@ -146,3 +146,12 @@ Integers have the specefic range for storing numbers. they can only store the nu
 <li><b>long long</b>: Does same as <i>long</i>, it increases capacity of the original data type. It has 8 bytes of memory which we can occupy.</li>
 <li><b>signed</b>: generally data types such as <i>int, float, double</i> are signed by default. It can store both positive and negative numbers.</li>
 <li><b>unsigned:</b>: Used when the variable will ever not be negative and always stays positive.</li>
+<br>
+<h2>
+Static Memory Allocation vs Compile Time Memory Allocation</h2>
+<p><b>Static Memory Allocation: </b><br><ul><li>Memory is allocated during compile time. That is, when we declare an array of size n, n blocks of memory get allocated during the strat of compilation of the program.</li> <li>In this method, compiler should be known priorly how much blocks of memory must be allocated to run the program.</li>
+<li>Memory allocated during compile time are stored in stack memory.</ul>
+<br>example: <i> int arr[5]</i> &nbsp;&nbsp;i.e., 5 blocks of memory gets allocated before the start of ececution of the program.</p>
+<p><b>Runtime Memory Allocation: </b><br>
+<ul><li>Here, memory is allocated during execution of the program.</li> <li>Whenever there is need of inserting any elements in a data structure, memory block is created at the run time to fit into it.</li><li> The advantage of this is, the compiler need not to be known the size of the data structure priorly.</li>
+<li>Memory allocated during run time are stored in heap memory<li>  </ul></p>
