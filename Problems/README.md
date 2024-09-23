@@ -84,6 +84,69 @@ Input: nums = [2,2,1,1,1,2,2]
 Output: 2
  </p>
 </li>
+
+<li><h2>Pow(x,n)</h2>
+<p><b>Description: </b>Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.</p>
+
+<p><b>Examples</b><br>
+Example 1:
+Input: x = 2.00000, n = 10
+Output: 1024.00000
+
+Example 2:
+Input: x = 2.10000, n = 3
+Output: 9.26100
+
+Example 3:
+Input: x = 2.00000, n = -2
+Output: 0.25000
+
+Explanation: 2-2 = 1/22 = 1/4 = 0.25
+ </p>
+</li>
+
+<li><h2>Container with Maximum Water</h2>
+<p><b>Description: </b>You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.</p>
+
+<p><b>Examples</b><br>
+Example 1:
+
+
+Input: height = [1,8,6,2,5,4,8,3,7]<br>
+Output: 49<br>
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+
+Example 2:<br>
+Input: height = [1,1]<br>
+Output: 1
+ </p>
+</li>
+
+<li><h2>Product of Array Except Self</h2>
+<p><b>Description: </b>Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+You must write an algorithm that runs in O(n) time and without using the division operation.</p>
+
+<p><b>Examples</b><br>
+Example 1:<br>
+Input: nums = [1,2,3,4]<br>
+Output: [24,12,8,6]<br>
+
+Example 2:<br>
+Input: nums = [-1,1,0,-3,3]<br>
+Output: [0,0,9,0,0]
+ </p>
+</li>
 </ol>
 
  
