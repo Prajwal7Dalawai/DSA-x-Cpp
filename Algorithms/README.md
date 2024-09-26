@@ -19,3 +19,10 @@ This algorithm is used to find majority element in the array. Majority element i
 </ol>
 
 # Binary Search Algorithm
+This algorithm is used to check the presence of specefic element in the array. It requires sorted array to implement this opeartion. Steps carried out in this algorithm:
+<ol>
+<li>Find the midpoint of the array</li>
+<li>If the target is more than mid, then intialize start point as midpoint+1</li>
+<li>If the target is less than midpoint, then initialise endpoint as midpoint-1</li>
+</ol>
+Time Complexity: O(logn)
