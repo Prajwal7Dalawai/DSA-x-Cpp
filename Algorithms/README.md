@@ -1,0 +1,21 @@
+# Kadane's Algorithm
+This algorithm is used to find maximum subarray sum in a given array. The working of Kadane's algorithm is way simple.
+<ol>
+<li>Add the elements of the af the array linearly</li>
+<li>compare the value of the sum at that instance to the maximum sum obtained till that instance</li>
+<li>If the sum at that instance becomes -ve, then reinitialise the current sum to zero. The reason for doing this is just to eliminate the elements which never contributes to the maximum sub array sum.</li>
+<li>Repeat the above steps till the end of the array.</li>
+</ol>
+
+# Moore's Algorithm
+This algorithm is used to find majority element in the array. Majority element is the element in the array which occurs [n/2] times in a array, where n is the size of the array. The main principle behind this algorithm is, if the element is occuring more than or equal to [n/2] times in the array, then it has the highest frequency.
+<ol>
+<li>We will consider the first element and increase our frequency count to 1. Also, we assign that element as an answer.</li> 
+<li>If the further occuring element is same as the previous element, then we will increase the value of frequency</li>
+<li>If previous element is not equal to the present, then we will decrease the value of count.</li>
+<li>If the frequency becomes 0, then the element at that instance is assigned as the answer.</li>
+<li>Again the above steps are Repeated until the frequency is positive.</li>
+<li>frequency has to be positive if the majority element exists. And the value of the answer at that moment of time is the majority element.</li>
+</ol>
+
+# Binary Search Algorithm
