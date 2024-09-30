@@ -26,3 +26,15 @@ This algorithm is used to check the presence of specefic element in the array. I
 <li>If the target is less than midpoint, then initialise endpoint as midpoint-1</li>
 </ol>
 Time Complexity: O(logn)
+
+# Rotated Sorted Array Using Binary Search Algorithm
+This algorithm is used to search an element in a rotated sorted array. It performs operation in log(N) time complexity. Steps Carried out in the algorithm:
+<ol>
+<li>Find the midpoint. If target equals midpoint, then return midpoint.</li>
+<li>Find out which side of the array is sorted(left or right). If left side is sorted, then ovbiously start element is less than mid element.</li>
+<li>If left side is sorted, then apply binary search algorithm to find element. Similarly do it if right side is sorted.</li>
+<li>When the left side is sorted, if target lies in between start and mid element, then initialise start=mid+1 else, initialise end = mid-1</li>
+<li>Same applies if left side is sorted.</li>
+<li>repeat the above steps</li>
+
+</ol>
