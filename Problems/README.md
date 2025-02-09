@@ -1,4 +1,4 @@
-<h1>Problems baseed on DSA</h1>
+<h1>Problems based on DSA</h1>
 
 <ol>
 <li>
@@ -214,29 +214,6 @@ Input: arr = [1,2,3,4,5,6], k = 10<br>
 Output: false<br>
 Explanation: You can try all possible pairs to see that there is no way to divide arr into 3 pairs each with sum divisible by 10.</p>
 
-
-<p><b>Examples</b><br>
-Example 1:
-
-Input: arr = [1,2,3,4,5,10,6,7,8,9], k = 5<br>
-Output: true<br>
-Explanation: Pairs are (1,9),(2,8),(3,7),(4,6) and (5,10).<br>
-
-Example 2:
-
-Input: arr = [1,2,3,4,5,6], k = 7<br>
-Output: true<br>
-Explanation: Pairs are (1,6),(2,5) and(3,4).<br>
-
-Example 3:
-
-Input: arr = [1,2,3,4,5,6], k = 10<br>
-Output: false<br>
-Explanation: You can try all possible pairs to see that there is no way to divide arr into 3 pairs each with sum divisible by 10.
- 
- </p>
-</li>
-
 <li><h2>Book Allocation Problem</h2>
 <p><b>Description: </b>Suppose there are m students and n books, which are of different page sizes. We need to find the minimum of the maximum pages of books each student can get.</p>
 <p><b>Examples</b><br>
@@ -248,6 +225,15 @@ Explanation: The optimal way is to allocate books to students as [12, 34] and [6
 
 <li><h2>Painters Partition Problem</h2>
 <p><b>Description: </b>Suppose there are m Painters and n units, where they take different times to complete different units. We need to find the minimum time to complete all units. Also note that each painter can only paint one unit at a time and each painter can paint contiguous units.</p>
+<p><b>Examples</b><br>
+Example 1:<br>
+Input: arr = [10, 20, 30, 40], m = 2<br>
+Output: 60<br>
+Explanation: The optimal way is to allocate units to painters as [10, 20, 30] and [40].</p>
+</li>
+
+<li><h2>Aggressive Cow Problem</h2>
+<p><b>Description: </b>Assign C rows to N stalls such that minimum distance between them is largest as possible.</p>
 <p><b>Examples</b><br>
 Example 1:<br>
 Input: arr = [10, 20, 30, 40], m = 2<br>
