@@ -172,7 +172,87 @@ Input: nums = [1], target = 0<br>
 Output: -1
  </p>
 </li>
-</ol>
 
+<li><h2>Peak Index in a Mountain Array</h2>
+<p><b>Description: </b>You are given an integer mountain array arr of length n where the values increase to a peak element and then decrease.
+
+Return the index of the peak element.
+
+Your task is to solve it in O(log(n)) time complexity.</p>
+
+<p><b>Examples</b><br>
+Example 1:
+
+Input: nums = [4,5,6,7,0,1,2], target = 0<br>
+Output: 4<br>
+
+Example 2:<br>
+Input: nums = [4,5,6,7,0,1,2], target = 3<br>
+Output: -1<br>
+
+Example 3:<br>
+Input: nums = [1], target = 0<br>
+Output: -1
+ </p>
+</li>
+
+<li><h2>Check If Array Pairs Are Divisible by k</h2>
+<p><b>Description: </b>Given an array of integers arr of even length n and an integer k. We want to divide the array into exactly n / 2 pairs such that the sum of each pair is divisible by k. Return true if you can find a way to do that or false otherwise.</p>
+<p><b>Examples</b><br>
+Example 1:<br>
+Input: arr = [1,2,3,4,5,10,6,7,8,9], k = 5<br>
+Output: true<br>
+Explanation: Pairs are (1,9),(2,8),(3,7),(4,6) and (5,10).<br>
+
+Example 2:<br>
+Input: arr = [1,2,3,4,5,6], k = 7<br>
+Output: true<br>
+Explanation: Pairs are (1,6),(2,5) and(3,4).<br>
+
+Example 3:<br>
+Input: arr = [1,2,3,4,5,6], k = 10<br>
+Output: false<br>
+Explanation: You can try all possible pairs to see that there is no way to divide arr into 3 pairs each with sum divisible by 10.</p>
+
+
+<p><b>Examples</b><br>
+Example 1:
+
+Input: arr = [1,2,3,4,5,10,6,7,8,9], k = 5<br>
+Output: true<br>
+Explanation: Pairs are (1,9),(2,8),(3,7),(4,6) and (5,10).<br>
+
+Example 2:
+
+Input: arr = [1,2,3,4,5,6], k = 7<br>
+Output: true<br>
+Explanation: Pairs are (1,6),(2,5) and(3,4).<br>
+
+Example 3:
+
+Input: arr = [1,2,3,4,5,6], k = 10<br>
+Output: false<br>
+Explanation: You can try all possible pairs to see that there is no way to divide arr into 3 pairs each with sum divisible by 10.
  
+ </p>
+</li>
 
+<li><h2>Book Allocation Problem</h2>
+<p><b>Description: </b>Suppose there are m students and n books, which are of different page sizes. We need to find the minimum of the maximum pages of books each student can get.</p>
+<p><b>Examples</b><br>
+Example 1:<br>
+Input: pages = [12, 34, 67, 90], m = 2<br>
+Output: 113<br>
+Explanation: The optimal way is to allocate books to students as [12, 34] and [67, 90].</p>
+</li>
+
+<li><h2>Painters Partition Problem</h2>
+<p><b>Description: </b>Suppose there are m Painters and n units, where they take different times to complete different units. We need to find the minimum time to complete all units. Also note that each painter can only paint one unit at a time and each painter can paint contiguous units.</p>
+<p><b>Examples</b><br>
+Example 1:<br>
+Input: arr = [10, 20, 30, 40], m = 2<br>
+Output: 60<br>
+Explanation: The optimal way is to allocate units to painters as [10, 20, 30] and [40].</p>
+</li>
+
+</ol>

@@ -154,4 +154,32 @@ Static Memory Allocation vs Compile Time Memory Allocation</h2>
 <br>example: <i> int arr[5]</i> &nbsp;&nbsp;i.e., 5 blocks of memory gets allocated before the start of ececution of the program.</p>
 <p><b>Runtime Memory Allocation: </b><br>
 <ul><li>Here, memory is allocated during execution of the program.</li> <li>Whenever there is need of inserting any elements in a data structure, memory block is created at the run time to fit into it.</li><li> The advantage of this is, the compiler need not to be known the size of the data structure priorly.</li>
-<li>Memory allocated during run time are stored in heap memory<li>  </ul></p>
+<li>Memory allocated during run time are stored in heap memory</li>  </ul></p>
+
+<h2>Pointers</h2>
+<p>Pointers are the special kind of variables that stores the memory address of another variable.<br>
+ex: int *p;<, int *p = &a; where & stands for memory address of correspondent variable<br>
+
+<h3>Pointer to Pointer</h3>
+Pointer that stores the memory address of another Pointer.<br>
+int *p;<, int *p = &a, **parent = &p;
+</p>
+<p><i>Note: * symbol operator is called as dereferencing operator. It is used to retrieve value at the address.</i></p>
+
+<h3>Null Pointer</h3>
+Pointer that doesn't points to any location. We cannot dereference Null Pointer. If we do so, we will encounter <b>Segmentation fault</b> error.<br>
+ex: int* p = NULL;
+
+<h3>Pass by Reference</h3>
+Passing address of the variable as a parameter to the function rather than passing the copy of it. By doing this we can directly change the data stored in that variable. If any changes happens in the function, it will directly manipulate the variable passed as parameter.
+
+<p><i>Note: We can directly call array as a pointer. Because, the name of the array carries thea ddress of first element of the array.</i></p>
+
+<h3>Pointer Arithmatics</h3>
+<ol>
+<li>Increament(++<)/Decreament(--): Increamenting/decreamenting the pointer means that, reducing the location of that variable to its capacity.i.e., If there is a integer pointer, then increamenting increases memory address by the size of variable.Same goes with decreamenting.</li>
+
+<li>Addition/Subtraction: As we did in increamenting/decreamenting, we just increamented or decreamented the memory address by the size of that variable only one time. But when we are adding a specefic number to the pointer, assume we are adding n to the pointer variable, this leads to increasing the memory address by the size of that variable n times. Similarly, everythig holds same with the Subtraction. </li>
+</ol>
+
+<p><i>Note: All relational operators can be applied for the pointer.</i></p>
