@@ -23,7 +23,8 @@ void insertion_sort(vector<int> &arr){
 }
 
 void display(vector<int> &arr){
-    for(int i=0; i<arr.size(); i++) cout<<arr[i]<<" ";
+    int n = arr.size();
+    for(int i=0; i<n; i++) cout<<arr[i]<<" ";
     cout<<endl;
 }
 
