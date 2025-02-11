@@ -28,6 +28,14 @@ int factorial(int n)    //Recursive Function
         return n*factorial(n-1);
     }
 }
+
+void swap3(int &a,int &b,int &c){   //swapping 3 numbers
+    int temp=b;
+    b=a;
+    a=c;
+    c=temp;
+}
+
 main(){
     //Calling each function in main to show its Demonstration
 
