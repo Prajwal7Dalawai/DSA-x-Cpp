@@ -29,5 +29,8 @@ for(data_type value : vector_name){ <br>
 <li><i><b>front: </b></i>Returns the first element of the vector.</li>
 <li><i><b>back: </b></i>Returns the last element of the vector</li>
 <li><i><b>at: </b></i>Accessing particular value at particular index.</li>
+<li><i><b>emplace_back() </b></i>Directly constructs the object in place at the end of the container. Avoids an extra copy/move operation by forwarding arguments to the constructor.</li>
+<li><i><b>erase: </b></i>Deletes the element of specified index</li>
+<li><i><b>clear: </b></i>Deletes all the elements in the vector</li>
 </ol>
 <i><b>Note: </b> size property returns the size of the vector. It returns number of places actually occupied by value in vector, whereas, capacity property returns the total capacity/size that can be accomodated by values/ maximum places where element in a data structure can accomodate.
